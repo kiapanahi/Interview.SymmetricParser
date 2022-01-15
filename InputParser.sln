@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09DEB5EE-17BE-43E4-B6E4-F7ED8CAE5C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "src\parser\Parser.csproj", "{2F457BE3-0ADA-4207-AA26-534E4751CC1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F457BE3-0ADA-4207-AA26-534E4751CC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F457BE3-0ADA-4207-AA26-534E4751CC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F457BE3-0ADA-4207-AA26-534E4751CC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F457BE3-0ADA-4207-AA26-534E4751CC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F457BE3-0ADA-4207-AA26-534E4751CC1C} = {09DEB5EE-17BE-43E4-B6E4-F7ED8CAE5C70}
 	EndGlobalSection
 EndGlobal
